@@ -4,8 +4,37 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="typora-vue-theme主题介绍, Hexo">
-    <meta name="description" content="">
+    <meta name="keywords" content="前端开发规范, Hexo">
+    <meta name="description" content="前端开发规范1、前端code review规范
+
+
+检查类型
+自查细则
+是否通过
+未通过原因/现象
+
+
+
+常规检查
+代码是否能正常运行？
+
+
+
+
+
+控制台是否有明显的报错？
+
+
+
+
+
+代码有没有达到预期需求效果？
+
+
+
+
+
+代码逻辑是否简单">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +48,7 @@
 
     
 
-    <title>typora-vue-theme主题介绍 | Hexo</title>
+    <title>前端开发规范 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -287,12 +316,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">typora-vue-theme主题介绍</h1>
+                    <h1 class="description center-align post-title">前端开发规范</h1>
                 </div>
             </div>
         </div>
@@ -406,12 +435,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Typora/">
+                                <span class="chip bg-color">Typora</span>
+                            </a>
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" class="post-category">
+                                前端开发规范
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -441,7 +487,351 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="前端开发规范"><a href="#前端开发规范" class="headerlink" title="前端开发规范"></a><code>前端开发规范</code></h1><h2 id="1、前端code-review规范"><a href="#1、前端code-review规范" class="headerlink" title="1、前端code review规范"></a>1、前端code review规范</h2><table>
+<thead>
+<tr>
+<th>检查类型</th>
+<th>自查细则</th>
+<th>是否通过</th>
+<th>未通过原因/现象</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>常规检查</td>
+<td>代码是否能正常运行？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>控制台是否有明显的报错？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>代码有没有达到预期需求效果？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>代码逻辑是否简单易懂？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>代码书写是否符合规范？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>是否尽可能组件化了？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>有没有重复造轮子</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>去掉大段被注释的代码{如果注释代码是可用的，那就先提交未删除的注释代码打SVN上，然后再提交删除了的注释代码，以后能回滚就可以了}</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>按钮是否控制了单次点击？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>定时器是否随生命周期消除？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>安全检车</td>
+<td>引入他人（公司内部或者其他外部机构）依赖包，是否存在不可用和版本升级导致功能不可用的风险？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>所有请求是否都使用了HTTPS，包括图片链接、对App应用嵌入的页面，是否提供了HTTPS协议链接？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>代码注释或者文案中是否包含了敏感词汇？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>文档检查</td>
+<td>是否有符合规范的注释？注释是否描述准确？对方法参数或者名词是否进行了解释？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>第三方库使用是否有完善文档？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>readme文档是否书写规范？是否对项目有准确描述？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>性能检查</td>
+<td>页面加载是否超过了3s？超过3s的原因是什么？有没有友好的提示？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>代码有没有明显影响性能的逻辑和计算？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>组件层级是否可控？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>组件通信是否正常？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>页面嵌套是否简单？</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="2、readme文档规范"><a href="#2、readme文档规范" class="headerlink" title="2、readme文档规范"></a>2、readme文档规范</h2><h3 id="一、-项目搭建环境"><a href="#一、-项目搭建环境" class="headerlink" title="一、 项目搭建环境"></a><strong>一、 项目搭建环境</strong></h3><p>  开发环境：</p>
+<p>​    node v.14.17.1    </p>
+<p>​    vue v.2.6.14     </p>
+<p>​    iview v.4.6.1     </p>
+<p>​    elementUI v.2.4.9</p>
+<p>  Vue项目搭建工具</p>
+<p>  a) vue-cli3 + iview + elementUI</p>
+<p>  项目安装</p>
+<p>  a) npm install    安装依赖</p>
+<p>  b) npm run dev    本地运行项目</p>
+<p>  c) npm run build   打包项目</p>
+<p>  开发工具</p>
+<p>  a) Vscode</p>
+<p>  代码检测工具</p>
+<p>  a) ESLint</p>
+<h3 id="二、-开发规范"><a href="#二、-开发规范" class="headerlink" title="二、 开发规范"></a><strong>二、 开发规范</strong></h3><p>\1. 目录结构</p>
+<p>```</p>
+<p>|— build           构建脚本目录</p>
+<p>  |— build.js       生产环境构建（编译打包）脚本</p>
+<p>  |— check-versions.js     版本验证工具</p>
+<p>  |— utils.js         构建相关工具方法（主要用来处理css类文件的loader）</p>
+<p>  |— vue-loader.conf.js    处理vue中的样式</p>
+<p>  |— webpack.base.conf.js   webpack基础配置</p>
+<p>  |— webpack.dev.conf.js    webpack开发环境配置</p>
+<p>  |— webapck.prod.conf.js   webpack生产环境配置</p>
+<p>  |— webapck.test.conf.js   webpack测试环境配置</p>
+<p>  |— dev-client.js       dev-client.js-配合dev-server.js监听html文件改动也能够触发自动刷新</p>
+<p>  |— dev-server.js       环境的检查和对配置的使用（使服务器正常运行）</p>
+<p>|— config        项目配置</p>
+<p>  |— dev.env.js      开发环境变量</p>
+<p>  |— index.js       主配置文件</p>
+<p>  |— prod.env.js      生产环境变量</p>
+<p>  |— test.env.js      测试环境变量</p>
+<p>|— node_modules       项目依赖模块</p>
+<p>|— src          项目源码目录</p>
+<p>  |— directives      自定义指令</p>
+<p>​    |— index.js     导出指令</p>
+<p>​    |— xx.js       指令</p>
+<p>  |— assets        资源目录，资源会被webpack构建</p>
+<p>​    |— js        公共js文件目录,如util.js(通用方法放里面，如深拷贝)</p>
+<p>​    |— css        公共样式文件目录</p>
+<p>​    |— images      图片存放目录</p>
+<p>  |— components      公共组件目录</p>
+<p>​    |— CodeEditor    在线编辑</p>
+<p>  |— config        一些参数，如serverURI,fixedLayout, hideLogoOnMobile</p>
+<p>  |— filters        全局过滤器，过来URL上的 ‘#’</p>
+<p>  |— modules        前端页面文件</p>
+<p>​    |— application          平台应用管理目录</p>
+<p>​    |— applicationOfRelease     应用发布管理目录</p>
+<p>​    |— logManage           日志管理目录</p>
+<p>​    |— App.vue            根组件</p>
+<p>​    |— Login.vue           登录页面</p>
+<p>​    |— modifyPasswordModal.vue    修改密码页面</p>
+<p>​    |— Dash.vue           首页</p>
+<p>​    |— CASLoginProxy.vue       CAS登录代理页面</p>
+<p>  |— router        前端路由目录</p>
+<p>​    |— index.js     路由基本配置和拦截</p>
+<p>​    |— Route.js     配置vue文件对应路由</p>
+<p>​    |— routes.js     是否需要CAS单点登录，再结合Route配置路由</p>
+<p>  |— store         应用级数据管理</p>
+<p>​    |— api        抽离出的api请求</p>
+<p>​      |— xxx.js    各个模块的请求</p>
+<p>​      |— Path.js    请求url</p>
+<p>​      |— index.js   导出各个模块的请求</p>
+<p>​    |— modules      模块的store,配置接口方法</p>
+<p>​    |— index.js     组装模块并导出，统一管理导出</p>
+<p>​    |— state.js     单一状态树，定义应用数据结构及初始化状态</p>
+<p>​    |— getters.js      获取state中的状态，仅单向获取数据，不做任何修改</p>
+<p>​    |— actions.js      调用mutation方法对数据进行操作 </p>
+<p>​    |— mutation-types.js     存放vuex常用的变量</p>
+<p>​    |— mutations.js   定义state数据的修改操作</p>
+<p>  |— utils         ???（如AppConfig）</p>
+<p>  |— constant.js      此文件用于存放sessionStorage定义的变量，具体你可以参考其中变量是如何定义并实现的</p>
+<p>  |— main.js        入口js文件</p>
+<p>|— static        纯静态资源，不会被webpack构建</p>
+<p>  |— js        js</p>
+<p>​    |— go.src.js   gojs插件</p>
+<p>  |— config.js     window.appConfig,如cas</p>
+<p>|— test         测试</p>
+<p>  |— unit       单元测试</p>
+<p>  |— e2e        e2e测试</p>
+<p>|— .babelrc       babel的配置文件</p>
+<p>|— .editorconfig     编辑器的配置文件</p>
+<p>|— .gitignore      git的忽略配置文件</p>
+<p>|— .postcssrc.js     postcss的配置文件</p>
+<p>|— index.html      html模板，入口页面</p>
+<p>|— package.json     npm包配置文件，依赖包信息</p>
+<p>|— README.md       项目介绍</p>
+<p>```</p>
+<p>\2. 文件、组件命名规范，结构规范</p>
+<p>a) 组件命名</p>
+<p>文件夹的命名以首字母小写且驼峰形式 如highRiskCommand</p>
+<p>文件的命名以首字母大写且驼峰形式 如 HighRiskCommandPage.vue。</p>
+<p>注意一般列表页的命名是Page结尾，像模态框如新增修改等，多以CreateModal结尾。建议只要是模态框，文件命名都用Modal结尾。若遇到表头比较多的，可考虑用Mixin.js混用，详情可参考ServerMixin.js。</p>
+<p>b) 基础组件命名</p>
+<p>  i. 当项目中需要自定义比较多的基础组件的时候，比如一些button，input，icon，建议以一个统一的单词Base开头，或者放到base文件夹统一管理，这样做的目的是为了方便查找。</p>
+<p>  ii. 页面级组件应该放到相对应页面文件夹下，比如一些组件只有这个页面用到，其他地方没有用到的，可以直接放到页面文件夹，然后以父组件开发命名。</p>
+<p>  iii. 项目级组件一般放到公共文件夹public下给所有的页面使用。</p>
+<p>c) 组件结构</p>
+<p>i. 组件结构一个遵循从上往下是template，script，style的结构</p>
+<p>d) 组件样式</p>
+<p>i. 单个组件样式一般可直接写到组件下style标签下，为了防止样式污染，可添加scoped 属性，也可以通过设置作用域来防止样式污染，写样式的时候尽量少写元素选择器，为了提高代码查找速度，可以用类选择器。</p>
+<p>e) 多属性编写格式</p>
+<p>i. 当组件定义很多的props属性值时，应该每个特性属性一行。</p>
+<p>f) Props定义</p>
+<p>i. 当定义组件时，应该对传入组件的props进行严格的定义，至少指定类型，设定默认值，定义好规范方便他人使用。</p>
+<p>g) 位v-for 增加键值Key，这样加快查找速度</p>
+<p>h) 当页面用到一些共享的状态的时，建议使用vuex</p>
+<p>\3. 文件格式</p>
+<p>a) UTF-8</p>
+<p>\4. 页面中class命名要求</p>
+<p>a) 命名中尽量避免使用中文拼音，应该采用更简明有语义的英文单词进行组合</p>
+<p>b) 采用横杠命名，例如”shop-list”</p>
+<p>\5. 资源路径编译规则</p>
+<p>a) 如果是绝对路径，会原样保留</p>
+<p>b) 如果路径以.开头，将会被看做相对模块依赖</p>
+<p>c) 如果路径以@开头，也会被看作一个模块依赖，需要在webpack配置中配置即可。</p>
+<p>d) 文件扩展名例如.js,.vue可以省略，也可以在webpack中配置</p>
+<p>\6. CSS</p>
+<p>a) css使用stylus，.vue以局部css来写值作用于当前文件。</p>
+<p>\7. 注释规范</p>
+<p>  a) 每个方法的顶部加上注释</p>
+<p>  b) Html中每个功能区的开头和结束都写上注释</p>
+<p>  c) 每个功能区的css也注明开始和结束</p>
+<p>  d) 每个字段和变量后面加上注释</p>
+<p>  以下情况填写注释：</p>
+<p>  a. 公共组件的使用说明</p>
+<p>  b. 各组件中重要函数或者类说明</p>
+<p>  c. 复杂的业务逻辑处理说明</p>
+<p>  d. 特殊情况的代码处理说明，对于特殊用途的变量、存在临界值、使用了某种算法思路进行注释说明</p>
+<p>  e. 注释块必须以/(两个星号)/</p>
+<p>  f. 单行注释使用 //</p>
+<p>\8. 编码规范</p>
+<p>尽量按照ESLint格式要求编写代码</p>
+<p>  a) 使用ES6风格编码源码</p>
+<p>  定义变量使用let,定义常量使用const</p>
+<p>  使用export,import模块化</p>
+<p>  b) 组件props原子化</p>
+<p>  提供默认值</p>
+<p>  使用type属性校验类型</p>
+<p>  使用props之前先检查prop是否存在</p>
+<p>  c) 避免this.$parent</p>
+<p>  d) 谨慎使用this.$refs</p>
+<p>  e) 无需将this赋值给component变量</p>
+<p>  f) 调试信息 console.log() debugger使用完及时删除</p>
+<p>\9. Js中的命名规范</p>
+<p>  自定义变量名</p>
+<p>  i. 驼峰式，首字母小写命名规范书写</p>
+<p>  ii. 数字类型以n开头，字符串以s开头，布尔类型以b开头，对象以o开头，数组以a开头。Eg:nAge=29、sName=”Jone”</p>
+<p>  自定义常量名</p>
+<p>  i. 常量名采用大写+ _下划线规范书写</p>
+<p>  函数名</p>
+<p>  i. 驼峰式，首字母小写命名规范</p>
+<p>  ii. 以操作类型+操作对象</p>
+<p>  iii. 操作类型如下：</p>
+<p>  新增类(add)、编辑类(edit)、删除类(delete)、查询单个类(get)、查询列表类(search)、打印类(print)、上传类(upload)、下载类(download)、导入类(import)、导出类(export)、检验类(check)、重置类(reset)、同步类(syn)、分页类(page)</p>
+<h3 id="三、-接口请求"><a href="#三、-接口请求" class="headerlink" title="三、 接口请求"></a>三、 接口请求</h3><p>  请求用Axios ，Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 。</p>
+<p>  Axios请求接口加密。</p>
+<h3 id="四、-可参考Vue官方风格指南"><a href="#四、-可参考Vue官方风格指南" class="headerlink" title="四、 可参考Vue官方风格指南"></a><strong>四、 可参考Vue官方风格指南</strong></h3><p>  <a target="_blank" rel="noopener" href="https://cn.vuejs.org/v2/style-guide/">https://cn.vuejs.org/v2/style-guide/</a></p>
+<h3 id="五、-换皮肤"><a href="#五、-换皮肤" class="headerlink" title="五、 换皮肤"></a>五、 换皮肤</h3><p>  C:\Users\89474\Desktop\AdminLTE-master\dist\css\skins下的css复制过来，在index.html引用，并在body上添加对应皮肤的class</p>
+<h3 id="六、-项目资料"><a href="#六、-项目资料" class="headerlink" title="六、 项目资料"></a><strong>六、 项目资料</strong></h3><ul>
+<li>接口文档：</li>
+<li>需求文档：<ul>
+<li>XX组件 8月二期需求 文档地址：https:XX</li>
+<li>xx组件 9月一期需求 文档地址：https:XX</li>
+</ul>
+</li>
+<li>设计文档：</li>
+<li>原型图 文档地址：https:XX</li>
+<li>UI图    文档地址：https:XX</li>
+</ul>
+<h3 id="七、-公共组件封装"><a href="#七、-公共组件封装" class="headerlink" title="七、 公共组件封装"></a><strong>七、 公共组件封装</strong></h3><p>我们如何封装一个公共组件？</p>
+<p>1， 项目中需要多处使用的组件</p>
+<p>2， 不和业务耦合的组件，业务耦合的公共组件</p>
+<p>3， 所有状态都可以在外部控制，通过传入的props来控制其行为而不是暴露其内部结构。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">封装良好的组件隐藏其内部结构，并提供一组属性来控制其行为。</span><br><span class="line"></span><br><span class="line">隐藏内部结构是必要的。其他组件没必要知道或也不依赖组件的内部  结构或实现细节</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="八、-第三方文档"><a href="#八、-第三方文档" class="headerlink" title="八、 第三方文档"></a>八、 第三方文档</h3><p>项目中所有用的第三方插件都要整理出来地址，便于后期维护</p>
+<p>1.View UI（<a target="_blank" rel="noopener" href="http://v1.iviewui.com/docs/introduce%EF%BC%89">http://v1.iviewui.com/docs/introduce）</a></p>
+<p>2.Element UI（<a target="_blank" rel="noopener" href="https://element.eleme.cn/#/zh-CN/component/installation%EF%BC%89">https://element.eleme.cn/#/zh-CN/component/installation）</a></p>
+<p>3.Vue （<a target="_blank" rel="noopener" href="https://cn.vuejs.org/%EF%BC%89">https://cn.vuejs.org/）</a></p>
+<p>4.echarts （<a target="_blank" rel="noopener" href="https://echarts.apache.org/zh/index.html%EF%BC%89">https://echarts.apache.org/zh/index.html）</a></p>
+<p>5.gojs（英文<a target="_blank" rel="noopener" href="https://gojs.net/latest/api/index.html%EF%BC%8C%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3">https://gojs.net/latest/api/index.html，中文文档</a> <a target="_blank" rel="noopener" href="https://gojs.net.cn/samples/index.html%EF%BC%89">https://gojs.net.cn/samples/index.html）</a></p>
+<p>6.lodash 工具库 (<a target="_blank" rel="noopener" href="https://www.lodashjs.com/#_mapcollection-iteratee_identity">https://www.lodashjs.com/#_mapcollection-iteratee_identity</a>)</p>
+<p>7.Moment.js日期处理类库（<a target="_blank" rel="noopener" href="http://momentjs.cn/docs/%EF%BC%89">http://momentjs.cn/docs/）</a></p>
+<p>9.codemirror代码编辑器（<a target="_blank" rel="noopener" href="https://codemirror.net/%EF%BC%89">https://codemirror.net/）</a></p>
+<p>10.iconfon图标库（<a target="_blank" rel="noopener" href="https://www.iconfont.cn/%EF%BC%89">https://www.iconfont.cn/）</a></p>
+<p>11.富文本vue-quill-editor（<a target="_blank" rel="noopener" href="https://www.kancloud.cn/liuwave/quill/1409423%EF%BC%89">https://www.kancloud.cn/liuwave/quill/1409423）</a></p>
+
                 
             </div>
             <hr/>
@@ -504,7 +894,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Typora/">
+                                    <span class="chip bg-color">Typora</span>
+                                </a>
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -685,9 +1083,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="typora-vue-theme主题介绍">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="前端开发规范">
                         
-                        <span class="card-title">typora-vue-theme主题介绍</span>
+                        <span class="card-title">前端开发规范</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -702,13 +1100,29 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Kong FanKai
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/" class="post-category">
+                                    前端开发规范
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Typora/">
+                        <span class="chip bg-color">Typora</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
